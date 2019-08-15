@@ -1,0 +1,15 @@
+
+{
+	"active": [
+		{
+			"label": "About",
+			"class": "Homepage",
+			"path": "/"
+		},
+		{
+			"label": "Portfolio",
+			"class": "Portfolio",
+			"path": "/portfolio"
+		}
+	]
+}
