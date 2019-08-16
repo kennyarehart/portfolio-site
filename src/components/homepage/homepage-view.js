@@ -1,5 +1,6 @@
 import React from 'react'
 import './homepage.css'
+import Anchor from '../react-a'
 
 function Homepage() {
 	return (
@@ -11,7 +12,26 @@ function Homepage() {
 				<br />
 				web developer.
 			</h1>
-			<p>Front End Developer / Animator / Mentor</p>
+			<div className="sub-line">Front End Developer / Animator / Mentor</div>
+			<div className="follow-me">
+				<ul>
+					<li>
+						<Anchor href="./" className="email">
+							<span>Email Me</span>
+						</Anchor>
+					</li>
+					<li>
+						<Anchor href="./" className="linkedin">
+							<span>Connect on LinkedIn</span>
+						</Anchor>
+					</li>
+					<li>
+						<Anchor href="./" className="github">
+							<span>Follow on Github</span>
+						</Anchor>
+					</li>
+				</ul>
+			</div>
 		</div>
 	)
 }

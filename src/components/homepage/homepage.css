@@ -1,6 +1,6 @@
 .homepage-container {
     background-color: #0084cd;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: start;
