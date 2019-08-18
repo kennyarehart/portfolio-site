@@ -1,0 +1,11 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+    .portfolio {
+        grid-template-columns: auto;
+        grid-row-gap: 1em;
+    }
+}

@@ -1,12 +1,50 @@
 .homepage-container {
-    background-color: #0084cd;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    padding: 0 8vw;
-    color: white;
-  }
-  
+  background-color: #0084cd;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 8vw 8vw;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.chunk {
+  padding-top: 1em;
+}
+
+.follow-me a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+}
+
+.follow-me .email  {
+  background: url(/images/icon_email.svg)
+}
+
+.follow-me .linkedin  {
+  background: url(/images/icon_linkedin.svg)
+}
+
+.follow-me .github  {
+  background: url(/images/icon_github.svg)
+}
+
+.follow-me span {
+  text-indent: -999em;
+}

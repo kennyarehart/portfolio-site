@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './homepage.css'
 import Anchor from '../react-a'
+import { TweenMax, Power2 } from 'gsap'
+import Gallery from '../gallery'
+import FollowMe from '../follow-me'
 
 function Homepage() {
+
+	useEffect(() => {
+        // TweenMax.to(
+        //     [imgElem0, imgElem1],
+        //     1,
+        //     {
+        //         repeat: -1,
+        //         rotation: 360,
+        //         ease: Linear.easeNone
+        //     }
+        // )
+	}, [])
+
 	return (
 		<div className="homepage-container">
 			<h1>
@@ -12,25 +28,12 @@ function Homepage() {
 				<br />
 				web developer.
 			</h1>
-			<div className="sub-line">Front End Developer / Animator / Mentor</div>
-			<div className="follow-me">
-				<ul>
-					<li>
-						<Anchor href="./" className="email">
-							<span>Email Me</span>
-						</Anchor>
-					</li>
-					<li>
-						<Anchor href="./" className="linkedin">
-							<span>Connect on LinkedIn</span>
-						</Anchor>
-					</li>
-					<li>
-						<Anchor href="./" className="github">
-							<span>Follow on Github</span>
-						</Anchor>
-					</li>
-				</ul>
+			<div className="chunk">Front End Developer / Animator / Mentor</div>
+			<div className="chunk">
+				<FollowMe />
+			</div>
+			<div className="chunk">
+				<Gallery />
 			</div>
 		</div>
 	)
