@@ -7,8 +7,8 @@ import site_fat from '../../assets/images/site_fat.png'
 function Gallery() {
 	return (
 		<div className="portfolio">
-            <ProjectThumb src={site_alk} />
-            <ProjectThumb src={site_fat} />
+            <ProjectThumb src={site_alk} header="Wedding Website" details="Design & Development" />
+            <ProjectThumb src={site_fat} header="Ad Production Pipeline" details="Architecture & Development" />
         </div>
     )
 }

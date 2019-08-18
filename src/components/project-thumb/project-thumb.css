@@ -1,6 +1,5 @@
 .container {
   position: relative;
-  /* width: 50%; */
   overflow: hidden;
 }
 
@@ -12,12 +11,14 @@ img {
 
 .overlay {
   position: absolute;
-  bottom: 0;
-  height: 50%;
+  height: 30%;
   width: 100%;
   transition: .35s ease;
-  bottom: -50%;
+  bottom: -30%;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .container:hover .overlay {
@@ -25,18 +26,13 @@ img {
 }
 
 .text {
-  color: #0084cd;
+  color: #114867;
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  padding: 0 1.2em;
 }
 
-@media (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-width : 320px) and (max-width : 480px) {
   .overlay {
     bottom: 0;
     position: relative;
@@ -48,6 +44,6 @@ img {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
-    padding: 1em 0;
+    padding: 1em;
   }
 }

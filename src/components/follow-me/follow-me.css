@@ -1,7 +1,5 @@
 ul {
   list-style: none;
-  /* margin: 0; */
-  /* padding: 0; */
 }
 
 li {
@@ -17,18 +15,10 @@ li {
   margin-right: 1em;
 }
 
-.email  {
-  background: url(/images/icon_email.svg)
-}
-
-.linkedin  {
-  background: url(/images/icon_linkedin.svg)
-}
-
-.github  {
-  background: url(/images/icon_github.svg)
-}
-
-Anchor span {
+a span {
   text-indent: -999em;
+}
+
+svg {
+  width: 100%;
 }

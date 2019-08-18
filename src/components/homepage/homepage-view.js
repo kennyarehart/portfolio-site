@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 import './homepage.css'
-import Anchor from '../react-a'
-import { TweenMax, Power2 } from 'gsap'
 import Gallery from '../gallery'
 import FollowMe from '../follow-me'
 
@@ -28,7 +26,7 @@ function Homepage() {
 				<br />
 				web developer.
 			</h1>
-			<div className="chunk">Front End Developer / Animator / Mentor</div>
+			<div className="chunk subline">Front End Developer / Animator / Mentor</div>
 			<div className="chunk">
 				<FollowMe />
 			</div>
