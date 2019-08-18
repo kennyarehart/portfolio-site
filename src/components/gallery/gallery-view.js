@@ -3,6 +3,7 @@ import ProjectThumb from '../project-thumb'
 import './gallery.css'
 import site_alk from '../../assets/images/site_alk.png'
 import site_fat from '../../assets/images/site_fat.png'
+import data from '../../data/portfolio.json'
 
 function Gallery() {
 	return (
