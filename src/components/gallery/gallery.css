@@ -9,8 +9,14 @@ p {
     font-size: 0.8em;
 }
 
-@media (min-width : 320px) and (max-width : 480px) {
+@media (max-width:800px) {
     .portfolio {
         flex-direction: column;
+    }
+}
+
+@media (min-widt:480px) and (max-width:800px) {
+    .portfolio {
+        width: 100%;
     }
 }

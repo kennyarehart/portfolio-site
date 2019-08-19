@@ -17,6 +17,7 @@ li {
 
 a span {
   text-indent: -999em;
+  display: none;
 }
 
 svg {

@@ -1,19 +1,109 @@
 [
     {
-        "header": "AshleyLovesKenny.com",
-        "description": "Wedding Website",
-        "details": "Development / Design",
-        "keys": ["react", "jsx", "sass", "webpack", "babel", "gsap"],
+        "header": "Wedding Website",
+        "sub": "AshleyLovesKenny.com / KennyLovesAshley.com",
+        "description": "Hers & His Web Portals",
+        "details": [
+            "Cross-device multi-domain support",
+            "6 unique experiences cross device & domain",
+            "Design",
+            "react / jsx / gsap", 
+            "webpack / babel / sass"
+        ],
         "src": "./images/porfolio_wedding.png",
         "color": "#0099ce",
-        "url": "http://ashleyloveskenny.com"
+        "links": [
+            {
+                "title": "Hers",
+                "url": "http://ashleyloveskenny.com"
+            },
+            {
+                "title": "Source:Github",
+                "url": "https://github.com/kennyarehart/kla"
+            },
+            {
+                "title": "His",
+                "url": "http://ashleyloveskenny.com"
+            }
+        ]
     },
     {
         "header": "FF0000-Ad-Tech",
+        "sub": "Digital Advertising",
         "description": "Digital Ad Production Pipeline",
-        "details": "Architecture / Development",
+        "details":[
+            "Full service expansive ad development framework",
+            "Major contributing Architect / Developer",
+            "Created solutions to seemingly unsolvable Dev issues"
+        ],
         "src": "./images/portfolio_fat.png",
         "color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
-        "url": "http://tech.wearered.com"
+        "url": "http://tech.wearered.com",
+        "links": [
+            {
+                "title": "Overview",
+                "url": "http://tech.wearered.com/"
+            }
+        ]
+    },
+    {
+        "header": "Environment",
+        "sub": "FF0000-Ad-Tech",
+        "description": "Images & Fonts in a single payload",
+        "details": [
+            ""
+        ],       
+        "src": "./images/portfolio_binary.svg",
+        "color": "linear-gradient(#ff587f,#ff482b)",
+        "links": [
+            {
+                "title": "Gesture:Github",
+                "url": "https://github.com/ff0000-ad-tech/ad-events"
+            },
+            {
+                "title": "Date-Time:Github",
+                "url": "https://github.com/ff0000-ad-tech/ad-dates"
+            }
+        ]
+    },
+    {
+        "header": "Binary Compiling",
+        "sub": "FF0000-Ad-Tech",
+        "description": "Images & Fonts in a single payload",
+        "details": [
+            "25% less bloat than base64 + gzip",
+            "Fewer network requests = faster load",
+            "Zero configuration",
+            "Architected 2016 within a private company Bitbucket",
+            "Ported to Github by other team members in late 2017"
+        ],       
+        "src": "./images/portfolio_binary.svg",
+        "color": "#efeeeb",
+        "links": [
+            {
+                "title": "Compile:Github",
+                "url": "https://github.com/ff0000-ad-tech/fba-compiler"
+            },
+            {
+                "title": "Load:Github",
+                "url": "https://github.com/ff0000-ad-tech/ad-load"
+            }
+        ]
+    },
+    {
+        "header": "Mentoring",
+        "sub": "FF0000-Ad-Tech",
+        "description": "Documentation / Tutorials",
+        "details": [
+            ""
+        ],       
+        "src": "./images/portfolio_binary.svg",
+        "color": "linear-gradient(#ff587f,#ff482b)",
+        "links": [
+            {
+                "title": "Docs:Github",
+                "url": "https://github.com/ff0000-ad-tech/ad-docs"
+            }
+        ]
     }
 ]

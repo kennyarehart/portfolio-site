@@ -20,21 +20,21 @@ function FollowMe() {
 		<div className="follow-me">
 			<ul>
 				<li>
-					<Anchor href="mailto:kennyarehart@gmail.com" className="email">
-						<span>Email Me</span>
+					<Anchor href="mailto:kennyarehart@gmail.com" className="email" alt="">
 						<IconEmail onMouseEnter={handleOver} onMouseLeave={handleOut} />
+						<span>Email Me</span>
 					</Anchor>
 				</li>
 				<li>
 					<Anchor href="https://www.linkedin.com/in/kennyarehart/" className="linkedin">
-						<span>Connect on LinkedIn</span>
 						<IconLinkedin onMouseEnter={handleOver} onMouseLeave={handleOut} />
+						<span>Connect on LinkedIn</span>
 					</Anchor>
 				</li>
 				<li>
 					<Anchor href="https://github.com/kennyarehart" className="github">
-						<span>Follow on Github</span>
 						<IconGithub onMouseEnter={handleOver} onMouseLeave={handleOut} />
+						<span>Follow on Github</span>
 					</Anchor>
 				</li>
 			</ul>

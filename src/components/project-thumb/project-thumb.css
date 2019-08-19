@@ -23,14 +23,15 @@ img {
 
 .overlay {
   position: absolute;
-  height: 70%;
+  height: 100%;
   width: 100%;
   transition: .35s ease;
-  bottom: -70%;
+  bottom: -100%;/*-70%;*/
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  font-size: 0.7em;
 }
 
 .container:hover .overlay {
@@ -39,22 +40,63 @@ img {
 
 .text {
   color: #114867;
-  font-size: 20px;
+  font-size: 0.75em;
   position: absolute;
   padding: 0 1.2em;
 }
 
-.desc {
-  color: #939493;
-  font-size: 0.7em;
-  padding-bottom: 0.6em;
+.text li {
+  display: block;
+  font-size: 0.8em;
+}
+.text li:before {
+  content: "/ "
 }
 
-p {
+.desc {
   color: #0084cd;
 }
 
-@media (min-width : 320px) and (max-width : 480px) {
+.text p,
+.text ul {
+  padding-bottom: 1em;
+}
+
+.sub {
+  color: #939493;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+}
+
+a {
+  text-decoration-line: none;
+  color: #656566;
+  /* text-transform: uppercase; */
+}
+
+a:hover {
+  color: #0084cd;
+}
+
+/* .links a:not(:first-child):before {
+  content: " - ";
+  color: #939493;
+} */
+.links a:first-child:before,
+.links a:after {
+  content: " | ";
+  color: #c0c1c0;
+}
+
+@media (min-widt:480px) and (max-width:800px) {
+  .container {
+    width: 100%;
+  }
+  .image-container {
+    height: calc(92vw * 0.5)
+  }
+}
+@media (min-width:320px) and (max-width:480px) {
   .container {
     width: auto;
     height: auto;
@@ -67,12 +109,8 @@ p {
   }
   .text {
     position: relative;
-    top: 0;
-    left: 0;
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
     padding: 6vw;
+    font-size: 1.2em;
   }
   .image-container {
     height: calc(92vw * 0.5)

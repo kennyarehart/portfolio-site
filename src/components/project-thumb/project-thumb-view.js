@@ -8,18 +8,24 @@ function ProjectThumb(props) {
 	}
 
 	return (
-		<Anchor className="container" style={style} href={props.data.url}>
+		<div className="container" style={style}>
 			<div className="image-container">
 				<img src={props.data.src} className="" alt="" />
 			</div>
 			<div className="overlay">
 				<div className="text">
-					<h4>{props.data.header}</h4>
-					<p className="desc">{props.data.description}</p>
-					<p>{props.data.details}</p>
+					<h2>{props.data.header}</h2>
+					<p className="sub">{props.data.sub}</p>
+					<h3 className="desc">{props.data.description}</h3>
+					<ul>
+						{props.data.details.map((item, i) => <li key={i}>{item}</li>)}
+					</ul>
+					<div className="links">
+						{props.data.links.map((item, i) => <Anchor href={item.url} key={i}>{item.title}</Anchor>)}
+					</div>
 				</div>
 			</div>
-		</Anchor>		
+		</div>		
 	)
 }
 
