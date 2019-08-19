@@ -19,16 +19,18 @@ function Homepage() {
 
 	return (
 		<div className="homepage-container">
-			<h1>
-				Hi,
-				<br />
-				I'm Kenny,
-				<br />
-				web developer.
-			</h1>
-			<div className="chunk subline">Front End Developer / Animator / Mentor</div>
-			<div className="chunk">
-				<FollowMe />
+			<div className="landing">
+				<h1>
+					Hi,
+					<br />
+					I'm Kenny,
+					<br />
+					web developer.
+				</h1>
+				<div className="chunk subline">Front End Developer / Animator / Mentor</div>
+				<div className="chunk">
+					<FollowMe />
+				</div>
 			</div>
 			<div className="chunk">
 				<Gallery />

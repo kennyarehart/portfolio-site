@@ -1,14 +1,19 @@
 [
     {
-        "header": "Wedding Website",
-        "details": "Design & Development",
-        "icon": null,
-        "color": "#0099ce"
+        "header": "AshleyLovesKenny.com",
+        "description": "Wedding Website",
+        "details": "Development / Design",
+        "keys": ["react", "jsx", "sass", "webpack", "babel", "gsap"],
+        "src": "./images/porfolio_wedding.png",
+        "color": "#0099ce",
+        "url": "http://ashleyloveskenny.com"
     },
     {
-        "header": "Ad Production Pipeline",
-        "details": "Architecture & Development",
-        "icon": null,
-        "color": "#0099ce"
+        "header": "FF0000-Ad-Tech",
+        "description": "Digital Ad Production Pipeline",
+        "details": "Architecture / Development",
+        "src": "./images/portfolio_fat.png",
+        "color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
+        "url": "http://tech.wearered.com"
     }
 ]

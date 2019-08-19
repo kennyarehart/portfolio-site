@@ -1,18 +1,16 @@
 .portfolio {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     padding-top: 2em;
-    grid-column-gap: 0.8em;
     max-width: 1080px;
+    flex-wrap: wrap;
 }
 
 p { 
     font-size: 0.8em;
 }
 
-@media (min-width : 320px) and (max-width : 640px) {
+@media (min-width : 320px) and (max-width : 480px) {
     .portfolio {
-        grid-template-columns: auto;
-        grid-row-gap: 1em;
+        flex-direction: column;
     }
 }
