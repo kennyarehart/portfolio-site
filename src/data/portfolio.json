@@ -10,7 +10,7 @@
             "react / jsx / gsap", 
             "webpack / babel / sass"
         ],
-        "src": "./images/porfolio_wedding.png",
+        "src": "./images/icon_wedding.png",
         "color": "#0099ce",
         "links": [
             {
@@ -36,7 +36,7 @@
             "Major contributing Architect / Developer",
             "Created solutions to seemingly unsolvable Dev issues"
         ],
-        "src": "./images/portfolio_fat.png",
+        "src": "./images/icon_fat.png",
         "color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
         "url": "http://tech.wearered.com",
         "links": [
@@ -53,7 +53,7 @@
         "details": [
             ""
         ],       
-        "src": "./images/portfolio_binary.svg",
+        "src": "./images/icon_binary.svg",
         "color": "linear-gradient(#ff587f,#ff482b)",
         "links": [
             {
@@ -77,7 +77,7 @@
             "Architected 2016 within a private company Bitbucket",
             "Ported to Github by other team members in late 2017"
         ],       
-        "src": "./images/portfolio_binary.svg",
+        "src": "./images/icon_binary.svg",
         "color": "#efeeeb",
         "links": [
             {
@@ -97,7 +97,7 @@
         "details": [
             ""
         ],       
-        "src": "./images/portfolio_binary.svg",
+        "src": "./images/icon_docs.svg",
         "color": "linear-gradient(#ff587f,#ff482b)",
         "links": [
             {
