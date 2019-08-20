@@ -1,6 +1,5 @@
 import React from 'react'
 import './project-thumb.css'
-import Anchor from '../react-a'
 import { GithubIconButton, SiteIconButton } from '../icon-button'
 
 function ProjectThumb(props) {
