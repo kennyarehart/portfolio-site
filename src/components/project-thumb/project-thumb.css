@@ -26,9 +26,9 @@ img {
   height: 100%;
   width: 100%;
   transition: .35s ease;
-  bottom: -0%;/*-100%;*/
+  bottom: -100%;/*-100%;*/
   background-color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .container:hover .overlay {
