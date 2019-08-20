@@ -15,15 +15,15 @@
         "links": [
             {
                 "title": "Hers",
-                "url": "http://ashleyloveskenny.com"
-            },
-            {
-                "title": "Source:Github",
-                "url": "https://github.com/kennyarehart/kla"
+                "site": "http://ashleyloveskenny.com"
             },
             {
                 "title": "His",
-                "url": "http://ashleyloveskenny.com"
+                "site": "http://ashleyloveskenny.com"
+            },
+            {
+                "title": "Source",
+                "github": "https://github.com/kennyarehart/kla"
             }
         ]
     },
@@ -42,27 +42,11 @@
         "links": [
             {
                 "title": "Overview",
-                "url": "http://tech.wearered.com/"
-            }
-        ]
-    },
-    {
-        "header": "Environment",
-        "sub": "FF0000-Ad-Tech",
-        "description": "Images & Fonts in a single payload",
-        "details": [
-            ""
-        ],       
-        "src": "./images/icon_binary.svg",
-        "color": "linear-gradient(#ff587f,#ff482b)",
-        "links": [
-            {
-                "title": "Gesture:Github",
-                "url": "https://github.com/ff0000-ad-tech/ad-events"
+                "site": "http://tech.wearered.com/"
             },
             {
-                "title": "Date-Time:Github",
-                "url": "https://github.com/ff0000-ad-tech/ad-dates"
+                "title": "Source",
+                "github": "https://github.com/ff0000-ad-tech"
             }
         ]
     },
@@ -81,12 +65,32 @@
         "color": "#efeeeb",
         "links": [
             {
-                "title": "Compile:Github",
-                "url": "https://github.com/ff0000-ad-tech/fba-compiler"
+                "title": "Compile",
+                "github": "https://github.com/ff0000-ad-tech/fba-compiler"
             },
             {
-                "title": "Load:Github",
-                "url": "https://github.com/ff0000-ad-tech/ad-load"
+                "title": "Load",
+                "github": "https://github.com/ff0000-ad-tech/ad-load"
+            }
+        ]
+    },
+    {
+        "header": "Environment",
+        "sub": "FF0000-Ad-Tech",
+        "description": "Images & Fonts in a single payload",
+        "details": [
+            ""
+        ],       
+        "src": "./images/icon_binary.svg",
+        "color": "linear-gradient(#ff587f,#ff482b)",
+        "links": [
+            {
+                "title": "Gesture",
+                "github": "https://github.com/ff0000-ad-tech/ad-events"
+            },
+            {
+                "title": "Date-Time",
+                "github": "https://github.com/ff0000-ad-tech/ad-dates"
             }
         ]
     },
@@ -101,8 +105,8 @@
         "color": "linear-gradient(#ff587f,#ff482b)",
         "links": [
             {
-                "title": "Docs:Github",
-                "url": "https://github.com/ff0000-ad-tech/ad-docs"
+                "title": "Docs",
+                "github": "https://github.com/ff0000-ad-tech/ad-docs"
             }
         ]
     }

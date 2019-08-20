@@ -1,22 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './homepage.css'
 import Gallery from '../gallery'
 import FollowMe from '../follow-me'
 
 function Homepage() {
-
-	useEffect(() => {
-        // TweenMax.to(
-        //     [imgElem0, imgElem1],
-        //     1,
-        //     {
-        //         repeat: -1,
-        //         rotation: 360,
-        //         ease: Linear.easeNone
-        //     }
-        // )
-	}, [])
-
 	return (
 		<div className="homepage-container">
 			<div className="landing">

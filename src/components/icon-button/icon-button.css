@@ -1,0 +1,18 @@
+a.icon-btn {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+a.icon-btn svg {
+  width: 100%;
+}
+
+a svg {
+  fill: white;
+}
+
+a svg,
+a span {
+  display:inline-block;
+  vertical-align:middle;
+}

@@ -26,11 +26,8 @@ img {
   height: 100%;
   width: 100%;
   transition: .35s ease;
-  bottom: -100%;/*-70%;*/
+  bottom: -0%;/*-100%;*/
   background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   font-size: 0.7em;
 }
 
@@ -42,7 +39,7 @@ img {
   color: #114867;
   font-size: 0.75em;
   position: absolute;
-  padding: 0 1.2em;
+  padding: /*0*/ 1.2em;
 }
 
 .text li {
@@ -70,22 +67,22 @@ img {
 
 a {
   text-decoration-line: none;
+}
+
+.links a .svg-container {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.links a,
+.links a .svg-container svg {
   color: #656566;
-  /* text-transform: uppercase; */
+  fill: #656566;
 }
 
-a:hover {
-  color: #0084cd;
-}
-
-/* .links a:not(:first-child):before {
-  content: " - ";
-  color: #939493;
-} */
-.links a:first-child:before,
-.links a:after {
-  content: " | ";
-  color: #c0c1c0;
+.links a span {
+  margin-left: 0.3em;
 }
 
 @media (min-widt:480px) and (max-width:800px) {

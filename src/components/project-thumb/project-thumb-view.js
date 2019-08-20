@@ -1,6 +1,7 @@
 import React from 'react'
 import './project-thumb.css'
 import Anchor from '../react-a'
+import { GithubIconButton, SiteIconButton } from '../icon-button'
 
 function ProjectThumb(props) {
 	const style = {
@@ -21,7 +22,13 @@ function ProjectThumb(props) {
 						{props.data.details.map((item, i) => <li key={i}>{item}</li>)}
 					</ul>
 					<div className="links">
-						{props.data.links.map((item, i) => <Anchor href={item.url} key={i}>{item.title}</Anchor>)}
+						{props.data.links.map((item, i) => {
+							if (item.github) {
+								return <GithubIconButton href={item.github} key={i} alt={item.title} text={item.title} />
+							} else {
+								return <SiteIconButton href={item.site} key={i} alt={item.title} text={item.title} />
+							}
+						})}
 					</div>
 				</div>
 			</div>
