@@ -3,6 +3,7 @@
   overflow: hidden;
   width: 50%;
   height: calc(42vw * 0.6);
+  min-height: 270px;
 }
 
 .image-container {
@@ -39,7 +40,7 @@ img {
   color: #114867;
   font-size: 0.75em;
   position: absolute;
-  padding: /*0*/ 1.2em;
+  padding: 1.2em;
 }
 
 .text li {
@@ -85,22 +86,19 @@ a {
   margin-left: 0.3em;
 }
 
-@media (min-width:480px) and (max-width:800px) {
+@media (min-width:801px) {
   .container {
-    width: 100%;
-    height: auto;
-  }
-  .image-container {
-    height: calc(92vw * 0.35);
-    min-height: 180px;
+    max-height: 315px;
   }
 }
+
 @media (min-width:320px) and (max-width:480px) {
-  .container {
+  .portfolio > .container {
     width: auto;
     height: auto;
     overflow: auto;
     margin-bottom: 6vw;
+    max-height: auto;
   }
   .overlay {
     bottom: 0;
@@ -109,9 +107,23 @@ a {
   .text {
     position: relative;
     padding: 6vw;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .image-container {
     height: calc(92vw * 0.5)
+  }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width:768px) {
+  .container {
+    width: 100%;
+  }
+  .image-container,
+  .overlay {
+    width: 50%;
+  }
+  .overlay {
+    bottom: 0;
+    right: 0;
   }
 }

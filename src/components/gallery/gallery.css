@@ -9,13 +9,13 @@ p {
     font-size: 0.8em;
 }
 
-@media (max-width:800px) {
+@media (max-width:480px) {
     .portfolio {
         flex-direction: column;
     }
 }
 
-@media (min-widt:480px) and (max-width:800px) {
+@media (min-width:480px) and (max-width:800px) {
     .portfolio {
         width: 100%;
     }

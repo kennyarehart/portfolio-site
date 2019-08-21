@@ -33,7 +33,6 @@
         "description": "Digital Ad Production Pipeline",
         "details":[
             "Full service expansive ad development framework",
-            "Fast excecution",
             "Major contributing Architect / Developer",
             "Created solutions to seemingly unsolvable Dev issues"
         ],
@@ -59,7 +58,7 @@
             "25% less bloat than base64 + gzip",
             "Fewer network requests = faster load",
             "Zero configuration",
-            "Architected 2016 within a private company Bitbucket",
+            "Architected 2016 in a private company Bitbucket",
             "Ported to Github by other team members in late 2017"
         ],       
         "src": "./images/icon_binary.svg",
@@ -76,13 +75,16 @@
         ]
     },
     {
-        "header": "Environment",
+        "header": "Environments",
         "sub": "FF0000-Ad-Tech",
-        "description": "Images & Fonts in a single payload",
+        "description": "Cross-browser, device, time control",
         "details": [
-            ""
+            "Architected ultra-lite libraries for small K footprint",
+            "Touch & Mouse made ubiquitous as single events",
+            "Date-time & timezone library",
+            "Useragent library to parse any & all relivant info"
         ],       
-        "src": "./images/icon_binary.svg",
+        "src": "./images/icon_devices.svg",
         "color": "linear-gradient(#ff587f,#ff482b)",
         "links": [
             {
@@ -92,6 +94,36 @@
             {
                 "title": "Date-Time",
                 "github": "https://github.com/ff0000-ad-tech/ad-dates"
+            },
+            {
+                "title": "Useragent",
+                "github": "https://github.com/ff0000-ad-tech/ad-useragent"
+            }
+        ]
+    },
+    {
+        "header": "Markup",
+        "sub": "FF0000-Ad-Tech",
+        "description": "DOM building & manipulation",
+        "details": [
+            "Developed pure Javascript UI suite for DOM creation",
+            "Built Text-fit & layout utilities",
+            "Designed Ad template architecture"
+        ],       
+        "src": "./images/icon_markup.svg",
+        "color": "linear-gradient(#ff587f,#ff482b)",
+        "links": [
+            {
+                "title": "UI",
+                "github": "https://github.com/ff0000-ad-tech/ad-ui"
+            },
+            {
+                "title": "View",
+                "github": "https://github.com/ff0000-ad-tech/ad-view"
+            },
+            {
+                "title": "Ad Template",
+                "github": "https://github.com/ff0000-ad-tech/tmpl-standard-base"
             }
         ]
     },
@@ -100,14 +132,21 @@
         "sub": "FF0000-Ad-Tech",
         "description": "Documentation / Tutorials",
         "details": [
-            ""
+            "Documented full production library",
+            "Added extensive examples at every level of repo",
+            "Created scripts to generate docs as Markdown",
+            "Added full support for multiple repo structures"
         ],       
         "src": "./images/icon_docs.svg",
-        "color": "linear-gradient(#ff587f,#ff482b)",
+        "color": "#efeeeb",
         "links": [
             {
                 "title": "Docs",
                 "github": "https://github.com/ff0000-ad-tech/ad-docs"
+            },
+            {
+                "title": "JSDoc-to-MD",
+                "github": "https://github.com/ff0000-ad-tech/fat-jsdoc-to-md"
             }
         ]
     }
