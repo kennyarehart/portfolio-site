@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as IconEmail } from "../../assets/images/icon_email.svg";
+import { ReactComponent as IconEmail } from '../../assets/images/icon_email.svg'
 import IconButton from './icon-button-view.js'
 
 function EmailIconButton(props) {

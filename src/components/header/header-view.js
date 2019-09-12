@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import sectionData from '../../data/section.json'
 import './header.css'
 
 function Header() {
 	const title = 'Kenny Arehart'.toUpperCase()
-
-	useEffect(() => {
-		//
-	})
 
 	function createLinks() {
 		return sectionData.active.map((val, i) => {

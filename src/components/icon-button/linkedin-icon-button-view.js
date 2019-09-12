@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as IconLinkedin } from "../../assets/images/icon_linkedin.svg";
+import { ReactComponent as IconLinkedin } from '../../assets/images/icon_linkedin.svg'
 import IconButton from './icon-button-view.js'
 
 function LinkedInIconButton(props) {

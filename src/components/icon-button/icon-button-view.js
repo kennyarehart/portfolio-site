@@ -3,7 +3,7 @@ import './icon-button.css'
 import Anchor from '../react-a'
 import { TweenLite } from 'gsap'
 
-function IconButton({ Icon, href, alt, text, colors}) {
+function IconButton({ Icon, href, alt, text, colors }) {
 	const refIcon = useRef()
 	const refSpan = useRef()
 
@@ -12,18 +12,20 @@ function IconButton({ Icon, href, alt, text, colors}) {
 
 	function handleOver() {
 		TweenLite.to(refIcon.current, 0.1, { fill: colors[0] })
-		if (span)
-			TweenLite.to(refSpan.current, 0.1, { color: colors[0] })
+		if (span) TweenLite.to(refSpan.current, 0.1, { color: colors[0] })
 	}
 
 	function handleOut() {
 		TweenLite.to(refIcon.current, 0.7, { fill: colors[1] })
-		if (span)
-			TweenLite.to(refSpan.current, 0.7, { color: colors[1] })
+		if (span) TweenLite.to(refSpan.current, 0.7, { color: colors[1] })
 	}
 
 	if (text) {
-		span = <span className="" ref={refSpan}>{text}</span>
+		span = (
+			<span className="" ref={refSpan}>
+				{text}
+			</span>
+		)
 	}
 
 	return (
