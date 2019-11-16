@@ -1,16 +1,13 @@
 import React from 'react'
 import './App.css'
-// import Anchor from '../react-a'
-// import Portfolio from '../Portfolio'
-import Homepage from '../homepage'
-// import Header from '../header'
+// import Homepage from '../homepage'
+import CaseStudy from '../casestudy'
 
 function App() {
 	return (
-		<div className="App">
-			<div className="content-container">
-				<Homepage />
-			</div>
+		<div className="content-container">
+			{/* <Homepage /> */}
+			<CaseStudy name="nick" />
 		</div>
 	)
 }
