@@ -9,7 +9,7 @@ function App({ history }) {
 		<Router history={history}>
 			<Switch>
 				<Route exact path="/" component={Homepage} />
-				<Route path="/casestudy" render={props => <CaseStudy {...props} />} />
+				<Route path="/casestudy/:id" render={props => <CaseStudy {...props} />} />
 			</Switch>
 		</Router>
 	)

@@ -110,8 +110,8 @@ iframe {
 }
 
 #home-btn {
+	margin: 0;
 	position: absolute;
-	right: 2vw;
-	top: 2vh;
-	font-size: 2em;
+	right: 2vmin;
+	top: 2vmin;
 }

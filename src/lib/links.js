@@ -1,6 +1,6 @@
 export const getCaseStudyLink = name => {
 	return {
-		pathname: '/casestudy',
+		pathname: `/casestudy/${name}`,
 		state: {
 			name
 		}

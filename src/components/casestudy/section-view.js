@@ -1,5 +1,5 @@
 import React from 'react'
-import DynamicTag from './dynamictag-view'
+import DynamicTag from '../dynamic-tag'
 
 function CaseStudySection(props) {
 	return (

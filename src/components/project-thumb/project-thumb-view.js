@@ -1,6 +1,6 @@
 import React from 'react'
 import './project-thumb.css'
-import { GithubIconButton, SiteIconButton } from '../icon-button'
+import { SiteIconButton } from '../icon-button'
 import { Link } from 'react-router-dom'
 import { getCaseStudyLink } from '../../lib/links'
 
@@ -8,8 +8,6 @@ function ProjectThumb(props) {
 	const style = {
 		background: props.data.color
 	}
-
-	//pre-mockup icons?
 
 	return (
 		<div className="container" style={style}>
@@ -28,13 +26,7 @@ function ProjectThumb(props) {
 							))}
 						</ul>
 						<div className="links">
-							{props.data.links.map((item, i) => {
-								if (item.github) {
-									return <GithubIconButton href={item.github} key={i} alt={item.title} text={item.title} />
-								} else {
-									return <SiteIconButton href={item.site} key={i} alt={item.title} text={item.title} />
-								}
-							})}
+							<SiteIconButton alt="casestudy" text="Case Study" />
 						</div>
 					</div>
 				</div>

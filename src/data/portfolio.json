@@ -34,13 +34,7 @@
 		"details": ["300+ participants", "Social media sharing", "Custom app creation & integration", "Full case study avalable from CD"],
 		"src": "./images/icon_nick_white.png",
 		"color": "#ff6700",
-		"route": "nick",
-		"links": [
-			{
-				"title": "Case Study",
-				"site": "https://www.balliochan.com/work/nickelodeon-sdcc-voice-over-experience/"
-			}
-		]
+		"route": "nick-sdcc"
 	},
 	{
 		"header": "FF0000-Ad-Tech",
@@ -53,17 +47,7 @@
 		],
 		"src": "./images/icon_fat.png",
 		"color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
-		"route": "",
-		"links": [
-			{
-				"title": "Overview",
-				"site": "http://tech.wearered.com/"
-			},
-			{
-				"title": "Source",
-				"github": "https://github.com/ff0000-ad-tech"
-			}
-		]
+		"route": "ff0000-ad-tech"
 	},
 	{
 		"header": "Hummingbird-js",
