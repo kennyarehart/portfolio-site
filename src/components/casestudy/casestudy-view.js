@@ -6,8 +6,12 @@ import CaseStudySectionVideo from './section-video-view'
 import fetchCaseStudy from './fetchCaseStudy'
 import gsap, { ScrollToPlugin } from 'gsap/all'
 import { ReactComponent as IconArrowUp } from '../../assets/images/icon_arrowup.svg'
+import { Link } from 'react-router-dom'
+import { getHome } from '../../lib/links'
 
-function CaseStudy({ name }) {
+function CaseStudy(props) {
+	const name = props.location.state.name
+
 	const [data, setData] = useState({})
 	const [header, setHeader] = useState({})
 	const bgRef = useRef()
@@ -40,7 +44,7 @@ function CaseStudy({ name }) {
 	}
 
 	return (
-		<div id="content">
+		<div id="casestudy">
 			<div className="header-section">
 				<div className="cover-image" style={header.bg} ref={bgRef}></div>
 				<div className="title-container">
@@ -49,6 +53,9 @@ function CaseStudy({ name }) {
 				<div className="more-button">
 					<div>icon arrow</div>
 				</div>
+				<Link to={getHome()}>
+					<button id="home-btn">HOME</button>
+				</Link>
 			</div>
 			<div className="body-section">
 				{data.sections &&

@@ -34,7 +34,7 @@
 		"details": ["300+ participants", "Social media sharing", "Custom app creation & integration", "Full case study avalable from CD"],
 		"src": "./images/icon_nick_white.png",
 		"color": "#ff6700",
-		"url": "https://www.balliochan.com/work/nickelodeon-sdcc-voice-over-experience/",
+		"route": "nick",
 		"links": [
 			{
 				"title": "Case Study",
@@ -53,7 +53,7 @@
 		],
 		"src": "./images/icon_fat.png",
 		"color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
-		"url": "http://tech.wearered.com",
+		"route": "",
 		"links": [
 			{
 				"title": "Overview",
@@ -76,7 +76,7 @@
 		],
 		"src": "./images/logo_hummingbirdjs.png",
 		"color": "radial-gradient(circle at 100% 100%, #378c70 10%, #302e4b)",
-		"url": "https://kennyarehart.github.io/hummingbird/",
+		"route": "",
 		"links": [
 			{
 				"title": "API / Overview",
@@ -101,6 +101,7 @@
 		],
 		"src": "./images/icon_binary.svg",
 		"color": "radial-gradient(circle at 100% 100%, #efeeeb 40%, #deddda)",
+		"route": "",
 		"links": [
 			{
 				"title": "Compile",
@@ -124,6 +125,7 @@
 		],
 		"src": "./images/icon_devices.svg",
 		"color": "linear-gradient(#ff587f,#ff482b)",
+		"route": "",
 		"links": [
 			{
 				"title": "Gesture",
@@ -150,6 +152,7 @@
 		],
 		"src": "./images/icon_markup.svg",
 		"color": "radial-gradient(circle at 100% 100%, #ff587f 20%, #ff482b)",
+		"route": "",
 		"links": [
 			{
 				"title": "UI",
@@ -177,6 +180,7 @@
 		],
 		"src": "./images/icon_docs.svg",
 		"color": "radial-gradient(circle at 100% 100%, #efeeeb 40%, #cbcbcb)",
+		"route": "",
 		"links": [
 			{
 				"title": "Docs",
