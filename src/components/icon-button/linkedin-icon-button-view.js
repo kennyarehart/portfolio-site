@@ -1,9 +1,14 @@
 import React from 'react'
 import { ReactComponent as IconLinkedin } from '../../assets/images/icon_linkedin.svg'
-import IconButton from './icon-button-view.js'
+import IconSvg from '../icon-svg'
+import { AnchorBlank } from '../react-a'
 
 function LinkedInIconButton(props) {
-	return <IconButton Icon={IconLinkedin} href="https://www.linkedin.com/in/kennyarehart/" alt="Connect on LinkedIn" {...props} />
+	return (
+		<AnchorBlank href="https://www.linkedin.com/in/kennyarehart/" alt="Connect on LinkedIn" className="icon-btn">
+			<IconSvg Icon={IconLinkedin} {...props} />
+		</AnchorBlank>
+	)
 }
 
 export default LinkedInIconButton

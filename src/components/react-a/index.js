@@ -1,7 +1,4 @@
-import React from 'react'
+import AnchorBlank from './anchor-blank-view'
 
-function Anchor(props) {
-	return <a rel="noopener noreferrer" target="_blank" {...props} />
-}
-
-export default Anchor
+export { default } from './anchor-view'
+export { AnchorBlank }

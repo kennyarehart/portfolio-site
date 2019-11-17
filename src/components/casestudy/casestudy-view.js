@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './casestudy.css'
-import axios from 'axios'
-import CaseStudyTag from './casestudy-tag-view'
+import CaseStudySection from './section-view'
+import CaseStudySectionTeam from './section-team-view'
+import CaseStudySectionVideo from './section-video-view'
 import fetchCaseStudy from './fetchCaseStudy'
+import gsap, { ScrollToPlugin } from 'gsap/all'
+import { ReactComponent as IconArrowUp } from '../../assets/images/icon_arrowup.svg'
 
 function CaseStudy({ name }) {
 	const [data, setData] = useState({})
@@ -18,6 +21,8 @@ function CaseStudy({ name }) {
 			})
 		})
 
+		gsap.registerPlugin(ScrollToPlugin)
+
 		window.addEventListener('scroll', handleScroll)
 	}, [])
 
@@ -28,6 +33,12 @@ function CaseStudy({ name }) {
 		bgRef.current.style.transform = `translateY(${itemTranslate}px)`
 	}
 
+	function handleScrollToTop(event) {
+		console.log('click', event.target)
+		event.preventDefault()
+		gsap.to(window, 1, { scrollTo: 0 })
+	}
+
 	return (
 		<div id="content">
 			<div className="header-section">
@@ -35,12 +46,32 @@ function CaseStudy({ name }) {
 				<div className="title-container">
 					<img src={header.logo} alt="header-logo" />
 				</div>
-				{/* <div className="more-button">
+				<div className="more-button">
 					<div>icon arrow</div>
-				</div> */}
+				</div>
 			</div>
 			<div className="body-section">
-				{data.sections && data.sections.map((section, i) => <CaseStudyTag data={section} key={i} />)}
+				{data.sections &&
+					data.sections.map((section, i) => {
+						let ChosenClass
+						switch (section.type) {
+							case 'team':
+								ChosenClass = CaseStudySectionTeam
+								break
+							case 'video':
+								ChosenClass = CaseStudySectionVideo
+								break
+							default:
+								ChosenClass = CaseStudySection
+						}
+
+						return <ChosenClass data={section} key={i} />
+					})}
+			</div>
+			<div className="footer-section">
+				<div className="up-arrow" onClick={handleScrollToTop}>
+					<IconArrowUp />
+				</div>
 			</div>
 		</div>
 	)

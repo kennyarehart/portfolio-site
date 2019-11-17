@@ -74,10 +74,36 @@ h4 {
 }
 
 p {
-	margin-bottom: 1em;
+	margin: 0.5em 0 1em 0;
 }
 
+.video-holder {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	width: 100%;
+}
 iframe {
-	/* width: 100%; */
-	/* height: 100%; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+}
+
+.section-team ul {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.section-team .job {
+	font-weight: bold;
+}
+
+.arrow-up {
+	width: 50px;
+	height: 50px;
 }

@@ -7,7 +7,7 @@ function FollowMe() {
 		<div className="follow-me">
 			<EmailIconButton colors={['#114867', '#ffffff']} />
 			<LinkedInIconButton colors={['#114867', '#ffffff']} />
-			<GithubIconButton href="https://github.com/kennyarehart" alt="Follow on Github" colors={['#114867', '#ffffff']} />
+			<GithubIconButton colors={['#114867', '#ffffff']} />
 		</div>
 	)
 }
