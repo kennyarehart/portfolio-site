@@ -101,7 +101,7 @@
 			"Architected 2016 in a private company Bitbucket"
 		],
 		"src": "./images/icon_binary.svg",
-		"color": "radial-gradient(circle at 100% 100%, #efeeeb 40%, #deddda)",
+		"color": "radial-gradient(circle at 50% 110%, #d4bf81, #246920 110%)",
 		"links": [
 			{
 				"title": "Compile",
@@ -110,6 +110,20 @@
 			{
 				"title": "Load",
 				"github": "https://github.com/ff0000-ad-tech/ad-load"
+			}
+		]
+	},
+	{
+		"header": "Digital Advertising",
+		"sub": "",
+		"description": "",
+		"details": [],
+		"src": "./images/icon_ads.png",
+		"color": "radial-gradient(circle at 100% 100%, #e3561f 40%, #9c0000)",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "ads"
 			}
 		]
 	},
