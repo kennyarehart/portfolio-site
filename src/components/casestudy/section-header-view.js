@@ -22,13 +22,11 @@ function CaseStudySectionHeader(props) {
 
 	return (
 		<div className="header-section">
-			<div className="cover-image" style={bg} ref={bgRef}></div>
-			<div className="title-container">
-				<img src={data.logo} alt="header-logo" />
-			</div>
-			<div className="more-button">
+			<div className="cover-image" style={bg} ref={bgRef} />
+			<div className="title-container">{data.logo ? <img src={data.logo} alt="header-logo" /> : <div />}</div>
+			{/* <div className="more-button">
 				<div>icon arrow</div>
-			</div>
+			</div> */}
 		</div>
 	)
 }

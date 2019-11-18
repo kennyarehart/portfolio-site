@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollToPlugin)
 function ArrowUpIconButton(props) {
 	function handleScrollToTop(event) {
 		event.preventDefault()
-		gsap.to(window, 1, { scrollTo: 0 })
+		gsap.to(window, 0.7, { scrollTo: 0 })
 	}
 
 	return (

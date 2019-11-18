@@ -1,13 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react'
-import './casestudy.css'
+import React, { useState, useEffect } from 'react'
+import './casestudy.scss'
 import CaseStudySection from './section-view'
 import CaseStudySectionTeam from './section-team-view'
 import CaseStudySectionVideo from './section-video-view'
 import CaseStudySectionHeader from './section-header-view'
+import CaseStudySectionLinks from './section-links-view'
 import { fetchCaseStudy } from '../../lib/fetchData'
 import { ArrowUpIconButton, HomeIconButton } from '../icon-button'
-import { Link } from 'react-router-dom'
-import { getHome } from '../../lib/links'
 
 function CaseStudy(props) {
 	const name = props.location.state.name
@@ -17,7 +16,6 @@ function CaseStudy(props) {
 
 	useEffect(() => {
 		fetchCaseStudy(name).then(data => {
-			console.log('data:', data)
 			setData(data)
 			setIsLoading(false)
 		})
@@ -29,7 +27,7 @@ function CaseStudy(props) {
 				<div />
 			) : (
 				<>
-					<CaseStudySectionHeader data={data} />
+					{data.header ? <CaseStudySectionHeader data={data} /> : <div />}
 					<div className="body-section">
 						{data.sections.map((section, i) => {
 							let ChosenClass
@@ -39,6 +37,9 @@ function CaseStudy(props) {
 									break
 								case 'video':
 									ChosenClass = CaseStudySectionVideo
+									break
+								case 'links':
+									ChosenClass = CaseStudySectionLinks
 									break
 								default:
 									ChosenClass = CaseStudySection
@@ -52,9 +53,6 @@ function CaseStudy(props) {
 					</div>
 				</>
 			)}
-			{/* <Link to={getHome()}>
-				<button id="home-btn">HOME</button>
-			</Link> */}
 			<HomeIconButton />
 		</div>
 	)

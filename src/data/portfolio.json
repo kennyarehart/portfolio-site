@@ -1,5 +1,19 @@
 [
 	{
+		"header": "Nickelodeon + SDCC",
+		"sub": "San Diego Comic-Con Installation",
+		"description": "Voice Over Booth Experience",
+		"details": ["300+ participants", "Social media sharing", "Custom app creation & integration"],
+		"src": "./images/icon_nick_white.png",
+		"color": "#ff6700",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "nick-sdcc"
+			}
+		]
+	},
+	{
 		"header": "Wedding Website",
 		"sub": "AshleyLovesKenny.com / KennyLovesAshley.com",
 		"description": "Hers & His Web Portals",
@@ -28,15 +42,6 @@
 		]
 	},
 	{
-		"header": "Nickelodeon + SDCC",
-		"sub": "San Diego Comic-Con Installation",
-		"description": "Voice Over Booth Experience",
-		"details": ["300+ participants", "Social media sharing", "Custom app creation & integration", "Full case study avalable from CD"],
-		"src": "./images/icon_nick_white.png",
-		"color": "#ff6700",
-		"route": "nick-sdcc"
-	},
-	{
 		"header": "FF0000-Ad-Tech",
 		"sub": "Digital Advertising",
 		"description": "Digital Ad Production Pipeline",
@@ -47,7 +52,7 @@
 		],
 		"src": "./images/icon_fat.png",
 		"color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
-		"route": "ff0000-ad-tech"
+		"links": [{ "title": "Case Study", "route": "ff0000-ad-tech" }]
 	},
 	{
 		"header": "Hummingbird-js",
@@ -60,7 +65,6 @@
 		],
 		"src": "./images/logo_hummingbirdjs.png",
 		"color": "radial-gradient(circle at 100% 100%, #378c70 10%, #302e4b)",
-		"route": "",
 		"links": [
 			{
 				"title": "API / Overview",
@@ -73,6 +77,20 @@
 		]
 	},
 	{
+		"header": "Photobooth",
+		"sub": "",
+		"description": "",
+		"details": [],
+		"src": "./images/icon_photobooth.png",
+		"color": "radial-gradient(circle at 100% 100%, #234d5a 40%, #0a2e3a)",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "photobooth"
+			}
+		]
+	},
+	{
 		"header": "Binary Compiling",
 		"sub": "FF0000-Ad-Tech",
 		"description": "Images & Fonts in a single payload",
@@ -80,12 +98,10 @@
 			"25% less bloat than base64 + gzip",
 			"Fewer network requests = faster load",
 			"Zero configuration",
-			"Architected 2016 in a private company Bitbucket",
-			"Ported to Github by other team members in late 2017"
+			"Architected 2016 in a private company Bitbucket"
 		],
 		"src": "./images/icon_binary.svg",
 		"color": "radial-gradient(circle at 100% 100%, #efeeeb 40%, #deddda)",
-		"route": "",
 		"links": [
 			{
 				"title": "Compile",
@@ -109,7 +125,6 @@
 		],
 		"src": "./images/icon_devices.svg",
 		"color": "linear-gradient(#ff587f,#ff482b)",
-		"route": "",
 		"links": [
 			{
 				"title": "Gesture",
@@ -136,7 +151,6 @@
 		],
 		"src": "./images/icon_markup.svg",
 		"color": "radial-gradient(circle at 100% 100%, #ff587f 20%, #ff482b)",
-		"route": "",
 		"links": [
 			{
 				"title": "UI",
@@ -164,7 +178,6 @@
 		],
 		"src": "./images/icon_docs.svg",
 		"color": "radial-gradient(circle at 100% 100%, #efeeeb 40%, #cbcbcb)",
-		"route": "",
 		"links": [
 			{
 				"title": "Docs",

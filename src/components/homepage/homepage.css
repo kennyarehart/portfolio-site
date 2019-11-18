@@ -1,12 +1,10 @@
 .homepage-container {
-	background-color: #0084cd;
 	min-height: calc(100vh - 16vw);
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	font-size: calc(9px + 2vmin);
+	font-size: 30px;
 	padding: 8vh 0 0 0;
-	color: white;
 }
 
 .chunk {
@@ -28,5 +26,17 @@
 
 	.landing {
 		padding: 0 6vw;
+	}
+}
+
+@media (max-width: 550px) {
+	.homepage-container {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+	.homepage-container {
+		font-size: 26px;
 	}
 }
