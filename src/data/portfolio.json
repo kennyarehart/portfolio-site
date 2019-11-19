@@ -1,5 +1,18 @@
 [
 	{
+		"header": "FF0000-Ad-Tech",
+		"sub": "Digital Advertising",
+		"description": "Digital Ad Production Pipeline",
+		"details": [
+			"Full service, expansive ad development framework",
+			"Major contributing Architect / Developer",
+			"Created solutions to seemingly unsolvable Dev issues"
+		],
+		"src": "./images/icon_fat.png",
+		"color": "radial-gradient(circle at 100% 100%, #712d26 20%, #462626)",
+		"links": [{ "title": "Case Study", "route": "ff0000-ad-tech" }]
+	},
+	{
 		"header": "Nickelodeon + SDCC",
 		"sub": "San Diego Comic-Con Installation",
 		"description": "Voice Over Booth Experience",
@@ -14,87 +27,10 @@
 		]
 	},
 	{
-		"header": "Wedding Website",
-		"sub": "AshleyLovesKenny.com / KennyLovesAshley.com",
-		"description": "Hers & His Web Portals",
-		"details": [
-			"Cross-device multi-domain support",
-			"6 unique experiences cross device & domain",
-			"Design",
-			"react / jsx / gsap",
-			"webpack / babel / sass"
-		],
-		"src": "./images/icon_wedding.png",
-		"color": "#0099ce",
-		"links": [
-			{
-				"title": "Hers",
-				"site": "http://ashleyloveskenny.com"
-			},
-			{
-				"title": "His",
-				"site": "http://kennylovesashley.com"
-			},
-			{
-				"title": "Source",
-				"github": "https://github.com/kennyarehart/kla"
-			}
-		]
-	},
-	{
-		"header": "FF0000-Ad-Tech",
+		"header": "RED Sizzle App",
 		"sub": "Digital Advertising",
-		"description": "Digital Ad Production Pipeline",
-		"details": [
-			"Full service, expansive ad development framework",
-			"Major contributing Architect / Developer",
-			"Created solutions to seemingly unsolvable Dev issues"
-		],
-		"src": "./images/icon_fat.png",
-		"color": "radial-gradient(circle at 100% 100%, #712d26 20%, #462626)",
-		"links": [{ "title": "Case Study", "route": "ff0000-ad-tech" }]
-	},
-	{
-		"header": "Hummingbird-js",
-		"sub": "Open-source Javascript library",
-		"description": "Universal centralized ticker",
-		"details": [
-			"Handle animations, timers, intervals, etc",
-			"Scalable to theoretically infinite methods",
-			"Iteration speed control on a per method basis"
-		],
-		"src": "./images/logo_hummingbirdjs.png",
-		"color": "radial-gradient(circle at 100% 100%, #378c70 10%, #302e4b)",
-		"links": [
-			{
-				"title": "API / Overview",
-				"site": "https://kennyarehart.github.io/hummingbird/"
-			},
-			{
-				"title": "Source",
-				"github": "https://github.com/kennyarehart/hummingbird"
-			}
-		]
-	},
-	{
-		"header": "Photobooth",
-		"sub": "",
-		"description": "",
-		"details": [],
-		"src": "./images/icon_photobooth.png",
-		"color": "radial-gradient(circle at 100% 100%, #234d5a 40%, #0a2e3a)",
-		"links": [
-			{
-				"title": "Case Study",
-				"route": "photobooth"
-			}
-		]
-	},
-	{
-		"header": "Sizzler",
-		"sub": "",
-		"description": "",
-		"details": [],
+		"description": "Production Showcase CMS",
+		"details": ["Upload / manage all production work", "Scalable built with MongoDB / Express", "Create inifite custom experiences"],
 		"src": "./images/icon_sizzle.png",
 		"color": "radial-gradient(circle at 20% 170%, #854c55 20%, #2e374a)",
 		"links": [
@@ -138,6 +74,64 @@
 			{
 				"title": "Portfolio",
 				"route": "ads"
+			}
+		]
+	},
+	{
+		"header": "Hummingbird-js",
+		"sub": "Open-source Javascript library",
+		"description": "Universal centralized ticker",
+		"details": [
+			"Handle animations, timers, intervals, etc",
+			"Scalable to theoretically infinite methods",
+			"Iteration speed control on a per method basis"
+		],
+		"src": "./images/logo_hummingbirdjs.png",
+		"color": "radial-gradient(circle at 100% 100%, #378c70 10%, #302e4b)",
+		"links": [
+			{
+				"title": "API / Overview",
+				"site": "https://kennyarehart.github.io/hummingbird/"
+			},
+			{
+				"title": "Source",
+				"github": "https://github.com/kennyarehart/hummingbird"
+			}
+		]
+	},
+	{
+		"header": "Photobooth",
+		"sub": "",
+		"description": "",
+		"details": [],
+		"src": "./images/icon_photobooth.png",
+		"color": "radial-gradient(circle at 100% 100%, #234d5a 40%, #0a2e3a)",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "photobooth"
+			}
+		]
+	},
+	{
+		"header": "Wedding Website",
+		"sub": "AshleyLovesKenny.com / KennyLovesAshley.com",
+		"description": "Hers & His Web Portals",
+		"details": ["Cross-device multi-domain support", "6 unique experiences cross device & domain"],
+		"src": "./images/icon_wedding.png",
+		"color": "#0099ce",
+		"links": [
+			{
+				"title": "Hers",
+				"site": "http://ashleyloveskenny.com"
+			},
+			{
+				"title": "His",
+				"site": "http://kennylovesashley.com"
+			},
+			{
+				"title": "Source",
+				"github": "https://github.com/kennyarehart/kla"
 			}
 		]
 	},

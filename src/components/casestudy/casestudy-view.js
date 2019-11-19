@@ -6,6 +6,7 @@ import CaseStudySectionVideo from './section-video-view'
 import CaseStudySectionHeader from './section-header-view'
 import CaseStudySectionLinks from './section-links-view'
 import CaseStudySectionAds from './section-ads-view'
+import CaseStudySectionTech from './section-tech-view'
 import { fetchCaseStudy } from '../../lib/fetchData'
 import { ArrowUpIconButton, HomeIconButton } from '../icon-button'
 
@@ -45,6 +46,9 @@ function CaseStudy(props) {
 									break
 								case 'ads':
 									ChosenClass = CaseStudySectionAds
+									break
+								case 'tech':
+									ChosenClass = CaseStudySectionTech
 									break
 								default:
 									ChosenClass = CaseStudySection

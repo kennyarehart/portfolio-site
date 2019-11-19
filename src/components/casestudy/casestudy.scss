@@ -85,6 +85,9 @@ body {
 	h3 {
 		margin: 1em 0;
 	}
+	h4 {
+		margin-bottom: 0.5em;
+	}
 
 	h1,
 	h2,
@@ -114,18 +117,31 @@ body {
 		}
 	}
 
-	.section-team ul {
-		list-style-type: none;
-		display: inline-block;
-		margin-right: 1em;
-	}
+	.section-team {
+		padding-bottom: 1em !important;
 
-	.section-team .job {
-		font-weight: bold;
+		ul {
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 1em;
+		}
+
+		.job {
+			font-weight: bold;
+		}
 	}
 
 	.section-links {
 		background-color: pink;
+	}
+
+	.section-tech {
+		code::after {
+			content: ' / ';
+		}
+		code:last-child::after {
+			content: unset;
+		}
 	}
 
 	.section-ads {
