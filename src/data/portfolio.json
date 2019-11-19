@@ -51,7 +51,7 @@
 			"Created solutions to seemingly unsolvable Dev issues"
 		],
 		"src": "./images/icon_fat.png",
-		"color": "radial-gradient(circle at 100% 100%, #6e4641 20%, #2e374b)",
+		"color": "radial-gradient(circle at 100% 100%, #712d26 20%, #462626)",
 		"links": [{ "title": "Case Study", "route": "ff0000-ad-tech" }]
 	},
 	{
@@ -91,6 +91,20 @@
 		]
 	},
 	{
+		"header": "Sizzler",
+		"sub": "",
+		"description": "",
+		"details": [],
+		"src": "./images/icon_sizzle.png",
+		"color": "radial-gradient(circle at 20% 170%, #854c55 20%, #2e374a)",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "red-sizzle"
+			}
+		]
+	},
+	{
 		"header": "Binary Compiling",
 		"sub": "FF0000-Ad-Tech",
 		"description": "Images & Fonts in a single payload",
@@ -122,7 +136,7 @@
 		"color": "radial-gradient(circle at 100% 100%, #e3561f 40%, #9c0000)",
 		"links": [
 			{
-				"title": "Case Study",
+				"title": "Portfolio",
 				"route": "ads"
 			}
 		]
