@@ -64,9 +64,9 @@
 		]
 	},
 	{
-		"header": "Digital Advertising",
-		"sub": "",
-		"description": "",
+		"header": "HTML5 Display Ads",
+		"sub": "Digital Advertising",
+		"description": "Light-weight / Dynamic / Scalable",
 		"details": [],
 		"src": "./images/icon_ads.png",
 		"color": "radial-gradient(circle at 100% 100%, #e3561f 40%, #9c0000)",
@@ -101,8 +101,8 @@
 	},
 	{
 		"header": "Photobooth",
-		"sub": "",
-		"description": "",
+		"sub": "Event Installation",
+		"description": "Custom iOS App / Build",
 		"details": [],
 		"src": "./images/icon_photobooth.png",
 		"color": "radial-gradient(circle at 100% 100%, #234d5a 40%, #0a2e3a)",

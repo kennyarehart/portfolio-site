@@ -149,6 +149,9 @@ body {
 		h3 {
 			margin: 0;
 		}
+		h3 {
+			padding-bottom: 0.2em;
+		}
 		h2 {
 			color: #103048;
 		}
@@ -166,6 +169,7 @@ body {
 		}
 		iframe {
 			overflow: hidden;
+			background-color: white;
 		}
 		.ad-sizes {
 			margin: 0.5em 0;
@@ -183,6 +187,11 @@ body {
 				background-color: white;
 				color: #103048;
 			}
+		}
+		.collapsible {
+			// background-color: grey;
+			overflow: hidden;
+			height: 0;
 		}
 	}
 
