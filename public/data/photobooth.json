@@ -1,0 +1,68 @@
+{
+	"header": {
+		"bg": "/dynamic/photobooth/ArehartWeddingRebeccaRizzo1276.jpg",
+		"logo": "/dynamic/photobooth/photobooth_headerlogo.png"
+	},
+	"sections": [
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h1", "content": "iOS Photobooth Installation" },
+				{ "tag": "h4", "content": "Role:" },
+				{ "tag": "p", "content": "iOS App Development" },
+				{
+					"tag": "p",
+					"content": "The idea here was pretty straight forward: Build a Photobooth for my wedding to save $1K+ from renting! The other want was to have all the original photos saved, not just the final composed take away. I looked at what was available in the App Store, however only 1 provided this service but it water marks the photos, even if you paid for the app! So I said to my now wife what i always say:<br /><br />\"I can just build that...\"<br /><br />I saw this as a great opportunity to dive into <code>Swift</code> and native app development. This app features a 4 shot cycle with countdown, optional printing with Air Print and does keep all the originals stored internal to the device (with no watermarks).<br /><br />The Air Print is something of a challenge that I am proud of my solution. Air Print only works over a network. However, our wedding was out in the woods, far from any wifi. But a network can exist without wifi! I took a wifi extender I had lying around, reset it to have its own internal network, connected both the printer and iPad to it and ...worked like a charm!<br /><br />All told, the app ran for 6 hours at the event with 100+ session and never had a shut-down or major fail. "
+				},
+				{ "tag": "h4", "content": "Role:" },
+				{ "tag": "p", "content": "Builder" },
+				{
+					"tag": "p",
+					"content": "I wanted to build something that looked nice but not cost a ton. Using wood that I had left over from previous projects, I mocked up a pedestal stand that would break down into multiple parts to fit in a car. I would like to add more of the build photos later as I am pretty proud of how well it came out!<br /><br />The lighting was a separate build. Using a telescoping microphone stand, I wired up a junction box with a switch to a socket at the end to house a hig watt bulb. At the end was a photographers umbrella to create a perfect soft light."
+				}
+			]
+		},
+		{
+			"type": "tech",
+			"content": ["Swift", "Manufacturing", "Electrical"]
+		},
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h3", "content": "Photobooth Installation with Props" },
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/photobooth/ArehartWeddingRebeccaRizzo1266.jpg"
+					}
+				},
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/photobooth/ArehartWeddingRebeccaRizzo0213.jpg"
+					}
+				},
+				{ "tag": "h3", "content": "iPad App Interface" },
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/photobooth/photobooth_app_start.png"
+					}
+				},
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/photobooth/photobooth_app_end.png"
+					}
+				},
+				{ "tag": "h3", "content": "Printable take-away" },
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/photobooth/photobooth_print.jpg"
+					}
+				}
+			]
+		}
+	]
+}

@@ -22,7 +22,7 @@ function CaseStudySectionAds(props) {
 
 	useEffect(() => {
 		const h = isExpanded ? 'auto' : 0
-		// gsap.to(collapsible.current, 0.3, { height: h })
+		gsap.to(collapsible.current, 0.3, { height: h })
 	}, [isExpanded])
 
 	return (

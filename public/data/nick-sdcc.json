@@ -1,0 +1,80 @@
+{
+	"header": {
+		"bg": "/dynamic/nick-sdcc/nicksdcc_twitter_themebg.png",
+		"logo": "/dynamic/nick-sdcc/header_nickatcomicon.png"
+	},
+	"sections": [
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h1", "content": "Nickelodeon SDCC Voice Over Experience" },
+				{ "tag": "h4", "content": "Role:" },
+				{ "tag": "p", "content": "Air App Development" },
+				{
+					"tag": "p",
+					"content": "Nickelodeon came to us with an idea of wanting to do something special at their booth for the San Diego Comic Con 2014. They wanted fans to be able to record voiceover for their favorite Nick cartoon and share the video to their friends via social networks. So our team put heads together and created a technology creative solution to make it happen.<br /><br />This was a one-of-a-kind experiential project. On one hand, we had to design the motion graphics component of the karaoke videos, as well as the sharing output videos, all within the technological constraints with the dynamic rendering of the videos. On the other hand, we're designing the whole user experience from the registration process, to the hardware setup in the booth recording experience, and the end result where participants browse and share their videos.<br /><br />Throughout this 3-month project, we worked closely with the designers, developers, producers and Nickelodeon to make sure the overall creative strategy was on point. There were a lot of moving parts in the project, and it was truly a team effort all around that resulted in its success."
+				}
+			]
+		},
+		{
+			"type": "tech",
+			"content": ["FFMpeg", "ActionScript 3", "Bash \\ CLI", "Websockets"]
+		},
+		{
+			"type": "",
+			"content": [
+				{
+					"tag": "p",
+					"content": "<br/>Below is a case study video that Ballio (Creative Director) put together at RED that showcases our experience. Enjoy!"
+				}
+			]
+		},
+		{
+			"type": "video",
+			"props": {
+				"src": "https://player.vimeo.com/video/105490123",
+				"width": 770,
+				"height": 433,
+				"frameBorder": 0
+			}
+		},
+		{
+			"type": "team",
+			"content": {
+				"title": "Team (RED Interactive Agency):",
+				"team": [
+					["Air App Development:", "Kenny Arehart, Greg Connell"],
+					["Backend Development:", "Peter Volpe"],
+					["Creative Direction, Design, Motion:", "Ballio Chan"],
+					["Frontend Design:", "Ko Kawazoe "],
+					["Frontend Development:", "Robert Barnwell"],
+					["Producers:", "Janice Arevalo, Joanna Denni, Donna Farmer"],
+					["Video Design / Motion:", "Nic Cunningham, Riel Phillips, Aaron Wilson, Josh Baker"]
+				]
+			}
+		},
+		{
+			"type": "",
+			"content": [
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/nick-sdcc/nick_SDCC_01.jpg"
+					}
+				},
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/nick-sdcc/nick_SDCC_02.jpg"
+					}
+				},
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/nick-sdcc/nick_SDCC_04.jpg"
+					}
+				}
+			]
+		}
+	]
+}

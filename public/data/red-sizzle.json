@@ -1,0 +1,133 @@
+{
+	"header": {
+		"bg": "/dynamic/red-sizzle/header_bg.jpg",
+		"logo": "/dynamic/red-sizzle/header_sizzle.png"
+	},
+	"sections": [
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h1", "content": "RED Showcase App & Site" },
+				{ "tag": "h4", "content": "Role:" },
+				{ "tag": "p", "content": "Backend Architecture & Development" },
+				{
+					"tag": "p",
+					"content": "The company wanted a tool to be able to easily showcase the breath of our ad and social work. Additionally, the ask was to be able to customize that experience for prospective clients. This is the RED Showcase, originally called the Sizzle App. This a walk through of the backend app which i designed, architected and developed. "
+				}
+			]
+		},
+		{
+			"type": "tech",
+			"content": ["Node", "Express", "EJS", "MongoDB", "Sass", "Webpack", "Nodemon", "Ngnix"]
+		},
+		{
+			"type": "",
+			"content": [{ "tag": "h3", "content": "Landing Page" }]
+		},
+		{
+			"type": "full",
+			"content": [
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/red-sizzle/landing.png"
+					}
+				}
+			]
+		},
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h3", "content": "Adding Content" },
+				{
+					"tag": "p",
+					"content": "A form to create a campaign and add content to the database. Select from the available client list pulled from the database. Assign the campaign name and public facing name. Form accepts a <code>.zip</code> file. Supported files include: Deployed ad creatives, video files <code>.mp4</code> and <code>.mov</code>, animated <code>.gif</code>, static images <code>.jpg</code>, <code>.png</code>, <code>.gif</code>. Updates the GUI async to reflect uploads."
+				}
+			]
+		},
+		{
+			"type": "full",
+			"content": [
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/red-sizzle/campaigns.png"
+					}
+				}
+			]
+		},
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h3", "content": "Create a Tearsheet" },
+				{
+					"tag": "p",
+					"content": "The true power of this app is done with tearsheets. Select what content should be included from the available content. Sections can be done at the client or even campaign level. Then you can choose to highlight specific units by making them a <code>hero</code>. This is piroritize them to the center so they will autoplay during the showcase."
+				}
+			]
+		},
+		{
+			"type": "full",
+			"content": [
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/red-sizzle/tearsheet_blank.png"
+					}
+				}
+			]
+		},
+		{
+			"type": "full",
+			"content": [
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/red-sizzle/tearsheet_filled.png"
+					}
+				}
+			]
+		},
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h3", "content": "Preview Filtered Tearsheet" },
+				{
+					"tag": "p",
+					"content": "See the tearsheet with only selected content. A unique <code>id</code> and <code>hash</code> are generated. The <code>id</code> is pulled from <code>Mongo</code> upon creation of a new entry. The <code>hash</code> is more human readable: the tearsheet name and a small random 3 digit. This makes the vanity url more understandable when sharing with clients."
+				}
+			]
+		},
+		{
+			"type": "full",
+			"content": [
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/red-sizzle/preview.png"
+					}
+				}
+			]
+		},
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h3", "content": "Public Facing Site" },
+				{
+					"tag": "p",
+					"content": "The sizzle shoecase front-end is an impressive beast in itself. I cannot take credit for that, however I did work closely with Dowis to hook up the front to the backend."
+				},
+				{
+					"tag": "h4",
+					"content": "<b>Front-end Development:</b> Andrew Dowis"
+				},
+				{
+					"tag": "img",
+					"props": {
+						"src": "/dynamic/red-sizzle/frontend.jpg"
+					}
+				}
+			]
+		}
+	]
+}
