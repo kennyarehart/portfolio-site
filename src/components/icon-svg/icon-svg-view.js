@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import './icon-svg.css'
 import gsap from 'gsap'
 
@@ -8,6 +8,9 @@ function IconSvg({ Icon, text, colors }) {
 
 	colors = colors || ['#0084cd', '#656566']
 	let span
+
+	const styleI = { fill: colors[1] }
+	const styleS = { color: colors[1] }
 
 	function handleOver() {
 		gsap.to(refIcon.current, 0.1, { fill: colors[0] })
@@ -21,7 +24,7 @@ function IconSvg({ Icon, text, colors }) {
 
 	if (text) {
 		span = (
-			<span className="" ref={refSpan}>
+			<span className="" ref={refSpan} style={styleS}>
 				{text}
 			</span>
 		)
@@ -30,7 +33,7 @@ function IconSvg({ Icon, text, colors }) {
 	return (
 		<div className="icon" onMouseEnter={handleOver} onMouseLeave={handleOut}>
 			<div className="svg-container">
-				<Icon ref={refIcon} />
+				<Icon ref={refIcon} style={styleI} />
 			</div>
 			{span}
 		</div>

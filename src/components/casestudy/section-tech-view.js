@@ -1,7 +1,6 @@
 import React from 'react'
 
 function CaseStudySectionTech(props) {
-	console.log('TECH:', props)
 	return (
 		<div className="section section-tech">
 			<h4>Technologies:</h4>

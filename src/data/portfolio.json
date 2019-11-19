@@ -67,7 +67,7 @@
 		"header": "HTML5 Display Ads",
 		"sub": "Digital Advertising",
 		"description": "Light-weight / Dynamic / Scalable",
-		"details": [],
+		"details": ["Flash-like programatic animations", "CMS dynamic content integration"],
 		"src": "./images/icon_ads.png",
 		"color": "radial-gradient(circle at 100% 100%, #e3561f 40%, #9c0000)",
 		"links": [
@@ -103,7 +103,7 @@
 		"header": "Photobooth",
 		"sub": "Event Installation",
 		"description": "Custom iOS App / Build",
-		"details": [],
+		"details": ["100+ participants", "Printable takeaways", "Custom app creation & integration"],
 		"src": "./images/icon_photobooth.png",
 		"color": "radial-gradient(circle at 100% 100%, #234d5a 40%, #0a2e3a)",
 		"links": [

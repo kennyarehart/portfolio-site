@@ -1,4 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
+import { ArrowToggleIconButton } from '../icon-button'
+import ReactHtmlParser from 'react-html-parser'
 import gsap from 'gsap'
 
 function CaseStudySectionAds(props) {
@@ -20,20 +22,21 @@ function CaseStudySectionAds(props) {
 
 	useEffect(() => {
 		const h = isExpanded ? 'auto' : 0
-		gsap.to(collapsible.current, 0.3, { height: h })
+		// gsap.to(collapsible.current, 0.3, { height: h })
 	}, [isExpanded])
 
 	return (
 		<div className="section section-ads">
 			<hr />
-			<div onClick={handleClickExpand}>
+			<div className="expand-btn" onClick={handleClickExpand}>
+				<ArrowToggleIconButton isExpanded={isExpanded} />
 				<h3>{props.data.client}</h3>
 			</div>
 
 			<div className="collapsible" ref={collapsible}>
 				<h2>{props.data.campaign}</h2>
 
-				<p>{props.data.desc}</p>
+				<p>{ReactHtmlParser(props.data.desc)}</p>
 				<h4>Select a size to preview.</h4>
 				<div className="ad-sizes">
 					{props.data.sizes.map((item, i) => {

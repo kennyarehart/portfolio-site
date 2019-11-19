@@ -12,7 +12,6 @@ import { ArrowUpIconButton, HomeIconButton } from '../icon-button'
 
 function CaseStudy(props) {
 	const name = props.location.state.name
-	console.log('CASE STUDY:', name)
 
 	const [isLoading, setIsLoading] = useState(true)
 	const [data, setData] = useState({ header: {}, sections: [] })
@@ -68,7 +67,7 @@ function CaseStudy(props) {
 					</div>
 
 					<div className="footer-section">
-						<ArrowUpIconButton colors={['#114867', '#ffffff']} />
+						<ArrowUpIconButton />
 					</div>
 				</>
 			)}

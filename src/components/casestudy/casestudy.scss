@@ -188,10 +188,36 @@ body {
 				color: #103048;
 			}
 		}
+		.expand-btn > * {
+			display: inline-block;
+		}
+		.expand-btn {
+			cursor: pointer;
+			width: 300px;
+
+			.icon-arrow {
+				float: right;
+				.icon .svg-container {
+					margin-left: 0.3em;
+					float: right;
+				}
+			}
+			.arrow-up .icon .svg-container {
+				transform: rotateZ(-90deg);
+			}
+			.arrow-down .icon .svg-container {
+				transform: rotateZ(90deg);
+			}
+
+			.svg-container {
+				margin: unset;
+				width: 20px;
+				height: 20px;
+			}
+		}
 		.collapsible {
-			// background-color: grey;
 			overflow: hidden;
-			height: 0;
+			// height: 0;
 		}
 	}
 
@@ -211,6 +237,7 @@ body {
 			height: 50px;
 			right: 0;
 			padding: 1em;
+			transform: rotateZ(-90deg);
 		}
 	}
 
