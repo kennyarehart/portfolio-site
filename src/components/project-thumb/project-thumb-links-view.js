@@ -3,7 +3,6 @@ import { GithubIconButton, SiteIconButton, CaseStudyIconButton } from '../icon-b
 import './project-thumb-links.scss'
 
 function ProjectThumbLinks(props) {
-	console.log('ProjectThumbLinks:', props)
 	return (
 		<div className="links">
 			{props.data.links.map((item, i) => {
@@ -17,7 +16,7 @@ function ProjectThumbLinks(props) {
 				} else if (item.github) {
 					return <GithubIconButton href={item.github} {...baseProps} {...props} />
 				} else {
-					return <SiteIconButton href={item.site} {...baseProps} {...props} />
+					return <SiteIconButton href={item.site} target="_blank" {...baseProps} {...props} />
 				}
 			})}
 		</div>

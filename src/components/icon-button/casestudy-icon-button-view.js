@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import { getCaseStudyLink } from '../../lib/links'
 
 function CaseStudyIconButton(props) {
-	console.log('CaseStudyIconButton, props:', props)
 	return (
 		<Link to={getCaseStudyLink(props.route)} className="icon-btn">
 			<IconSvg Icon={IconSite} {...props} />

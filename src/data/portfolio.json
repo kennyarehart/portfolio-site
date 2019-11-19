@@ -10,7 +10,16 @@
 		],
 		"src": "./images/icon_fat.png",
 		"color": "radial-gradient(circle at 100% 100%, #712d26 20%, #462626)",
-		"links": [{ "title": "Case Study", "route": "ff0000-ad-tech" }]
+		"links": [
+			{
+				"title": "Overview",
+				"site": "http://tech.wearered.com/"
+			},
+			{
+				"title": "Source",
+				"github": "https://github.com/ff0000-ad-tech"
+			}
+		]
 	},
 	{
 		"header": "Nickelodeon + SDCC",
