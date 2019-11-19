@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 import './icon-svg.css'
 import gsap from 'gsap'
 

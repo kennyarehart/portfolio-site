@@ -2,6 +2,7 @@ import React from 'react'
 import './homepage.css'
 import Gallery from '../gallery'
 import FollowMe from '../follow-me'
+import Clients from '../clients'
 
 function Homepage() {
 	return (
@@ -21,6 +22,9 @@ function Homepage() {
 			</div>
 			<div className="chunk">
 				<Gallery />
+			</div>
+			<div className="chunk">
+				<Clients />
 			</div>
 		</div>
 	)

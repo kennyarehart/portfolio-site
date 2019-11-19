@@ -208,7 +208,7 @@
 			"Added full support for multiple repo structures"
 		],
 		"src": "./images/icon_docs.svg",
-		"color": "radial-gradient(circle at 90% 100%, rgb(197, 28, 243) 0%, rgb(255, 133, 86))",
+		"color": "radial-gradient(circle at 90% 100%, rgb(164, 102, 247) 0%, rgb(255, 133, 86))",
 		"links": [
 			{
 				"title": "Docs",

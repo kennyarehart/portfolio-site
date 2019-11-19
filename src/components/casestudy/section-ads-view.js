@@ -54,7 +54,11 @@ function CaseStudySectionAds(props) {
 				</div>
 			</div>
 			<div className="ad-display">
-				{size ? <iframe title="Embeded Ad" {...size} frameBorder="0" /> : <img className="ad-preview" src={preview} />}
+				{size ? (
+					<iframe title="Embeded Ad" {...size} frameBorder="0" />
+				) : (
+					<img className="ad-preview" src={preview} alt="ad preview" />
+				)}
 			</div>
 		</div>
 	)
