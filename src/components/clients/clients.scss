@@ -3,6 +3,15 @@
 	width: 100%;
 	padding: 3vh 0 8vh 0;
 
+	h4 {
+		color: #0084cd;
+		max-width: 60%;
+		margin: auto;
+		font-size: 0.8em;
+		text-align: center;
+		padding-bottom: 1em;
+	}
+
 	.clients-list {
 		display: flex;
 		max-width: 80%;
@@ -26,8 +35,9 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 615px) {
 	.clients-container {
+		h4,
 		.clients-list {
 			max-width: 90%;
 		}

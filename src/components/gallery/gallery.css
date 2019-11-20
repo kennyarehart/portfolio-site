@@ -1,6 +1,6 @@
 .portfolio {
 	display: flex;
-	padding-top: 2em;
+	padding: 2em 0;
 	/* max-width: 1080px; */
 	flex-wrap: wrap;
 }
