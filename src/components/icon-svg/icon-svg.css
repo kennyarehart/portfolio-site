@@ -1,0 +1,13 @@
+.icon-btn svg {
+	width: 100%;
+}
+
+svg {
+	fill: white;
+}
+
+svg,
+span {
+	display: inline-block;
+	vertical-align: middle;
+}

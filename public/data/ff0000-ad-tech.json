@@ -1,0 +1,85 @@
+{
+	"header": {
+		"bg": "/dynamic/ff0000-ad-tech/fat_themebg.jpg",
+		"logo": "/dynamic/ff0000-ad-tech/fat_headerlogo.png"
+	},
+	"sections": [
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h1", "content": "Ad Development" },
+				{ "tag": "h3", "content": "Light-weight, scalable, ES6" },
+				{ "tag": "h4", "content": "Role:" },
+				{ "tag": "p", "content": "Major contributing Architect" },
+				{ "tag": "p", "content": "This is an assessment" }
+			]
+		},
+		{
+			"type": "tech",
+			"content": ["Javascript", "Node", "NPM", "Webpack", "Babel"]
+		},
+		{
+			"type": "list",
+			"content": [
+				{
+					"title": "ES6/WEBPACK",
+					"sub": "CODE IS POWERFUL",
+					"details": ["Scalable, modular, testable", "Flexible integration / systematic", "Packaging & load-optimization"]
+				},
+				{
+					"title": "Open-Source",
+					"sub": "JOIN THE COMMUNITY",
+					"details": ["Well-vetted, evolving code", "Version-control improves stability", "Define industry standards"]
+				},
+				{
+					"title": "Modular",
+					"sub": "USE COMPONENTS",
+					"details": ["Less code, more function", "Better organized projects", "Extensible"]
+				},
+				{
+					"title": "GSAP",
+					"sub": "GREENSOCK ANIMATION PLATFORM",
+					"details": ["Simple, powerful framework", "The standard for over a decade", "Ubiquitously cached, dismissed k-size"]
+				},
+				{
+					"title": "IMAGES & FONTS IN A SINGLE PAYLOAD",
+					"sub": "",
+					"details": ["25% less bloat than base64 + gzip", "Fewer network requests = faster load", "Zero configuration"]
+				},
+				{
+					"title": "IAB Specs",
+					"sub": "STANDARDS COMPLIANT",
+					"details": ["30k core, the rest is for creative", "Fast: Only 2 payload requests", "Components designed for banners"]
+				},
+				{
+					"title": "Dynamic",
+					"sub": "BUILD PROGRAMMATICALLY",
+					"details": ["Text-fit & layout utilities", "Manage many dynamic states", "Reduce code across versions / sizes"]
+				},
+				{
+					"title": "Scale vs Scare",
+					"sub": "SYSTEMS SOLVE COMPLEXITY",
+					"details": ["Strong patterns for volume", "Creative control is maintained", "Faster loading ads"]
+				},
+				{
+					"title": "Standardized & Flexible",
+					"sub": "ITERATE & DELIVER FASTER",
+					"details": ["Schedule with confidence", "Shareable / workable code", "Consistent quality"]
+				}
+			]
+		},
+		{
+			"type": "links",
+			"links": [
+				{
+					"title": "Overview",
+					"site": "http://tech.wearered.com/"
+				},
+				{
+					"title": "Source",
+					"github": "https://github.com/ff0000-ad-tech"
+				}
+			]
+		}
+	]
+}

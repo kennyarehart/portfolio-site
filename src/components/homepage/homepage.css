@@ -1,0 +1,42 @@
+.homepage-container {
+	min-height: calc(100vh - 16vw);
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	padding: 8vh 0 0 0;
+}
+
+.chunk {
+	padding-top: 1em;
+}
+
+.subline {
+	font-size: 0.9em;
+}
+
+.landing {
+	padding: 0 8vw;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.homepage-container {
+		padding: 6vh 0 0 0;
+	}
+
+	.landing {
+		padding: 0 6vw;
+	}
+}
+
+@media (max-width: 550px) {
+	.homepage-container {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+	.homepage-container {
+		font-size: 26px;
+	}
+}
