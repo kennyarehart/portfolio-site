@@ -8,7 +8,7 @@ function FollowMe() {
 		<div className="follow-me">
 			<EmailIconButton colors={iconColors.overBlue} />
 			<LinkedInIconButton colors={iconColors.overBlue} />
-			<GithubIconButton colors={iconColors.overBlue} />
+			<GithubIconButton colors={iconColors.overBlue} href="https://github.com/kennyarehart" />
 		</div>
 	)
 }

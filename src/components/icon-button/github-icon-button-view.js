@@ -5,7 +5,7 @@ import { AnchorBlank } from '../react-a'
 
 function GithubIconButton(props) {
 	return (
-		<AnchorBlank href="https://github.com/kennyarehart" alt="Follow on Github" className="icon-btn">
+		<AnchorBlank href={props.href} alt="Follow on Github" className="icon-btn">
 			<IconSvg Icon={IconGithub} {...props} />
 		</AnchorBlank>
 	)

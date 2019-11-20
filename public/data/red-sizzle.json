@@ -62,7 +62,7 @@
 				{ "tag": "h3", "content": "Create a Tearsheet" },
 				{
 					"tag": "p",
-					"content": "The true power of this app is done with tearsheets. Select what content should be included from the available content. Sections can be done at the client or even campaign level. Then you can choose to highlight specific units by making them a <code>hero</code>. This is piroritize them to the center so they will autoplay during the showcase."
+					"content": "The true power of this app is done with tearsheets. Select what content should be included from the available content. Sections can be done at the client or even campaign level. Then you can choose to highlight specific units by making them a <code>hero</code>. This will prioritize those units to the center so they will autoplay during the showcase."
 				}
 			]
 		},
