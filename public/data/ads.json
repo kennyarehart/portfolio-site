@@ -1,0 +1,70 @@
+{
+	"sections": [
+		{
+			"type": "",
+			"content": [
+				{ "tag": "h1", "content": "Digital Display Ad Campaigns" },
+				{ "tag": "h4", "content": "Role:" },
+				{ "tag": "p", "content": "Concepting / Prototyping / Developer / Animator" },
+				{
+					"tag": "p",
+					"content": "The digital display ad space has gone through its share of growing pains, the biggest being the jump from Flash to HTML5. The ask of all clients was to get the same rich and robust (Flashy) ads with essentially mini webpages. As the primary architect for the production pipeline front end (FF0000-ad-tech) I was able to make the tools work specifically for ad development as well as developing custom animation and logic for each campaign I worked on.<br /><br />The other major shift was to include CMS driven dynamic content. So ads must be built taking into consideration an almost infite number of possible inputs: images, copy, date coding, etc.<br /><br />Below are a few examples of some of my work. Click the Details to get a more in-depth look at each campaign."
+				}
+			]
+		},
+		{
+			"type": "tech",
+			"content": ["Javascript", "Greensock", "Canvas", "HTML5", "CSS3", "CMS", "Flipbook"]
+		},
+		{
+			"type": "ads",
+			"client": "Nike",
+			"campaign": "Nike Flyknit Lunar 3",
+			"desc": "This campaign started as 3 different looks with their own unique animation. However, the client loved the animations they wanted them all randomized in a single ad. Each look was based on a motion piece being used in the commercial for the product so I used those as reference as video was not possible for these placements. The animations mirror the video effects as close as is possible with code. When these ads ran, the accelerometer was still accessible in browsers so each of these animations could be triggered by device motion; a fun little easter egg.<br /><br />Look 1: Floating dots<br />I created a parallax effect with a mini particle system I build from scratch.<br /><br />Look 2: Sine lines<br />Using Trig logic I used the canvas to draw lines in a sine wave across to unit. Then by changing the amplitude, the lines would give a slow wave effect.<br /><br />Look 3: Radial wave<br />Using Trig once again, I created a small 3d Matrix object to create a series of custom shapes that I could manipulate in a faux 3d space. Leveraging the canvas, I simply animated each shape on a delay creating the wave like effect.",
+			"baseurl": "/dynamic/ads/flyknit/",
+			"sizes": [[300, 250], [160, 600], [320, 50], [728, 90]]
+		},
+		{
+			"type": "ads",
+			"client": "Netflix",
+			"campaign": "Stranger Things Season 2",
+			"desc": "This campaign had a very complex animation ask as there was an After Effects rendered video takeover done first. The client then wanted that matched but no one was sure it could be done. I took that as a personal challenge. There are several layers to the animation.<br /><br />The mask was created using a single small blob shape png. Then a circular layout was created that would expand outward. On each expansion a new shape was draw in a random orientation and by not clearing the mask each time it just compounded. This was then used as a mask for the reveal and transition from the 'upside-down' to 'real-world'<br /><br />The smoke was achieved with a similar logic: One smoke png that was repeated, rotated and scaled at different intervals to create the illusion of billowing smoke.<br /><br />Particles were added but drawn on a canvas 1/4 the size of the ad then scaled up to achieve a blurred effect without the performance hit.<br /><br />The lightning is a simple sprite sheet was created in After Effects and added to the end of the animation.",
+			"baseurl": "/dynamic/ads/strangerthings2/",
+			"sizes": [[300, 250], [300, 600], [728, 90], [800, 250], [970, 250], [980, 250]]
+		},
+		{
+			"type": "ads",
+			"client": "Disney",
+			"campaign": "Aulani Resort",
+			"desc": "The campaign was pitched and approved right before every mobile browser decided to stop support of inline autoplay video. The entire ad industry was in a panic. We were nervous to go back to the client and say we could not deliver what they had purchased. So I was tasked with coming up with a solution...<br /><br />Flipbook<br /><br />I created a new file format <code>.fbv</code> to store what is basically an image sequence. It progressively loads and after a certain number of images are loaded and cached, the sequence will start. It is not a streamlined as a video file with its optimization of chunking, but it allows for video in a non-video placement. This line of logic lead to the creation of the Binary Compiling technology.",
+			"baseurl": "/dynamic/ads/aulani/",
+			"sizes": [[300, 250]]
+		},
+		{
+			"type": "ads",
+			"client": "ESPN",
+			"campaign": "MLB Regular Season",
+			"desc": "This ad does not have fancy animations, but there is a lot going on with the architecture. Every element of this ad is dynamic coming from the CMS. This takes considerable planning to account for things such as: the scale and ratio of all image assets, the length of the messaging and therefore the font size, the team logos and colors, the various number of network logos, and the inclusion of a sponsor logo. All of these factors change from unit to unit and must all be handled by 1 single ad size. Additionally, each of the sizes shares components to not bloat the code. I personally like to develop these type of ads with every size simultaneously.",
+			"baseurl": "/dynamic/ads/mlb_reg_season/",
+			"query": "?date=2018-09-18T22:00:00+00:00",
+			"sizes": [[300, 250], [320, 50], [320, 120], [728, 90], [970, 66], [1024, 66], [1280, 100]]
+		},
+		{
+			"type": "ads",
+			"client": "ESPN",
+			"campaign": "Roland Garros 2019",
+			"desc": "Just like the MLB Regular Season ads, these units are almost fully dynamic: the images, the optional intro of players, the messaging, call to action and network logos. Building the intro animation module was a fun challenge as it factors in the dimensions of the unit to place the player image, graphics and copy.",
+			"baseurl": "/dynamic/ads/roland19/",
+			"query": "?date=2019-06-04T12:30:00+00:00",
+			"sizes": [[300, 250], [320, 50], [320, 120], [728, 90], [970, 66], [1024, 66], [1280, 100]]
+		},
+		{
+			"type": "ads",
+			"client": "ESPN",
+			"campaign": "Sports Center @ Night",
+			"desc": "This ad was budgeted to be a static ad. However, there was still an ask to hook up some dynamic fields to headline, messaging, tune-in and network logos. After the basic ad was done, the client asked for some kind of roll-over animation and given free reign to do whatever I desired. There was a graphic that Sports Center was using on broadcast that I really loved the look of. So I recreated the feel of it with code. It is made of a series or radial strokes and circles all animating their rotation and scales randomly. I think it captures the essence of the broadcast graphic at a fraction of the cost. The client loved it so much it was added to the intro of the ad.",
+			"baseurl": "/dynamic/ads/SC19/",
+			"sizes": [[300, 250], [320, 50], [320, 120], [728, 90], [970, 66], [1024, 66], [1280, 100]]
+		}
+	]
+}

@@ -1,0 +1,223 @@
+[
+	{
+		"header": "FF0000-Ad-Tech",
+		"sub": "Digital Advertising",
+		"description": "Digital Ad Production Pipeline",
+		"details": [
+			"Full service, expansive ad development framework",
+			"Major contributing Architect / Developer",
+			"Created solutions to seemingly unsolvable Dev issues"
+		],
+		"src": "./images/icon_fat.png",
+		"color": "radial-gradient(circle at 100% 100%, #712d26 20%, #462626)",
+		"links": [
+			{
+				"title": "Overview",
+				"site": "http://tech.wearered.com/"
+			},
+			{
+				"title": "Source",
+				"github": "https://github.com/ff0000-ad-tech"
+			}
+		]
+	},
+	{
+		"header": "Nickelodeon + SDCC",
+		"sub": "San Diego Comic-Con Installation",
+		"description": "Voice Over Booth Experience",
+		"details": ["300+ participants", "Social media sharing", "Custom app creation & integration"],
+		"src": "./images/icon_nick_white.png",
+		"color": "#ff6700",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "nick-sdcc"
+			}
+		]
+	},
+	{
+		"header": "RED Sizzle App",
+		"sub": "Digital Advertising",
+		"description": "Production Showcase CMS",
+		"details": ["Upload / manage all production work", "Scalable built with MongoDB / Express", "Create inifite custom experiences"],
+		"src": "./images/icon_sizzle.png",
+		"color": "radial-gradient(circle at 20% 170%, #854c55 20%, #2e374a)",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "red-sizzle"
+			}
+		]
+	},
+	{
+		"header": "HTML5 Display Ads",
+		"sub": "Digital Advertising",
+		"description": "Light-weight / Dynamic / Scalable",
+		"details": ["Flash-like programatic animations", "CMS dynamic content integration"],
+		"src": "./images/icon_ads.png",
+		"color": "radial-gradient(circle at 100% 100%, #e3561f 40%, #9c0000)",
+		"links": [
+			{
+				"title": "Portfolio",
+				"route": "ads"
+			}
+		]
+	},
+	{
+		"header": "Hummingbird-js",
+		"sub": "Open-source Javascript library",
+		"description": "Universal centralized ticker",
+		"details": [
+			"Handle animations, timers, intervals, etc",
+			"Scalable to theoretically infinite methods",
+			"Iteration speed control on a per method basis"
+		],
+		"src": "./images/logo_hummingbirdjs.png",
+		"color": "radial-gradient(circle at 100% 100%, #378c70 10%, #302e4b)",
+		"links": [
+			{
+				"title": "API / Overview",
+				"site": "https://kennyarehart.github.io/hummingbird/"
+			},
+			{
+				"title": "Source",
+				"github": "https://github.com/kennyarehart/hummingbird"
+			}
+		]
+	},
+	{
+		"header": "Photobooth",
+		"sub": "Event Installation",
+		"description": "Custom iOS App / Build",
+		"details": ["100+ participants", "Printable takeaways", "Custom app creation & integration"],
+		"src": "./images/icon_photobooth.png",
+		"color": "radial-gradient(circle at 100% 100%, #234d5a 40%, #0a2e3a)",
+		"links": [
+			{
+				"title": "Case Study",
+				"route": "photobooth"
+			}
+		]
+	},
+	{
+		"header": "Wedding Website",
+		"sub": "AshleyLovesKenny.com / KennyLovesAshley.com",
+		"description": "Hers & His Web Portals",
+		"details": ["Cross-device multi-domain support", "6 unique experiences cross device & domain"],
+		"src": "./images/icon_wedding.png",
+		"color": "#0099ce",
+		"links": [
+			{
+				"title": "Hers",
+				"site": "http://ashleyloveskenny.com"
+			},
+			{
+				"title": "His",
+				"site": "http://kennylovesashley.com"
+			},
+			{
+				"title": "Source",
+				"github": "https://github.com/kennyarehart/kla"
+			}
+		]
+	},
+	{
+		"header": "Binary Compiling",
+		"sub": "FF0000-Ad-Tech",
+		"description": "Images & Fonts in a single payload",
+		"details": [
+			"25% less bloat than base64 + gzip",
+			"Fewer network requests = faster load",
+			"Zero configuration",
+			"Architected 2016 in a private company Bitbucket"
+		],
+		"src": "./images/icon_binary.svg",
+		"color": "radial-gradient(circle at 50% 110%, #d4bf81, #246920 110%)",
+		"links": [
+			{
+				"title": "Compile",
+				"github": "https://github.com/ff0000-ad-tech/fba-compiler"
+			},
+			{
+				"title": "Load",
+				"github": "https://github.com/ff0000-ad-tech/ad-load"
+			}
+		]
+	},
+	{
+		"header": "Environments",
+		"sub": "FF0000-Ad-Tech",
+		"description": "Cross-browser, device, time control",
+		"details": [
+			"Architected ultra-lite libraries for small K footprint",
+			"Touch & Mouse made ubiquitous as single events",
+			"Date-time & timezone library",
+			"Useragent library to parse any & all relivant info"
+		],
+		"src": "./images/icon_devices.svg",
+		"color": "linear-gradient(#ff587f,#ff482b)",
+		"links": [
+			{
+				"title": "Gesture",
+				"github": "https://github.com/ff0000-ad-tech/ad-events"
+			},
+			{
+				"title": "Date-Time",
+				"github": "https://github.com/ff0000-ad-tech/ad-dates"
+			},
+			{
+				"title": "Useragent",
+				"github": "https://github.com/ff0000-ad-tech/ad-useragent"
+			}
+		]
+	},
+	{
+		"header": "Markup",
+		"sub": "FF0000-Ad-Tech",
+		"description": "DOM building & manipulation",
+		"details": [
+			"Developed pure Javascript UI suite for DOM creation",
+			"Built Text-fit & layout utilities",
+			"Designed Ad template architecture"
+		],
+		"src": "./images/icon_markup.svg",
+		"color": "radial-gradient(circle at 40% 40%, rgb(218, 204, 103) 50%, rgb(236, 174, 31))",
+		"links": [
+			{
+				"title": "UI",
+				"github": "https://github.com/ff0000-ad-tech/ad-ui"
+			},
+			{
+				"title": "View",
+				"github": "https://github.com/ff0000-ad-tech/ad-view"
+			},
+			{
+				"title": "Ad Template",
+				"github": "https://github.com/ff0000-ad-tech/tmpl-standard-base"
+			}
+		]
+	},
+	{
+		"header": "Mentoring",
+		"sub": "FF0000-Ad-Tech",
+		"description": "Documentation / Tutorials",
+		"details": [
+			"Documented full production library",
+			"Added detailed examples throughout repo",
+			"Created scripts to generate docs as Markdown",
+			"Added full support for multiple repo structures"
+		],
+		"src": "./images/icon_docs.svg",
+		"color": "radial-gradient(circle at 90% 100%, rgb(164, 102, 247) 0%, rgb(255, 133, 86))",
+		"links": [
+			{
+				"title": "Docs",
+				"github": "https://github.com/ff0000-ad-tech/ad-docs"
+			},
+			{
+				"title": "JSDoc-to-MD",
+				"github": "https://github.com/ff0000-ad-tech/fat-jsdoc-to-md"
+			}
+		]
+	}
+]
